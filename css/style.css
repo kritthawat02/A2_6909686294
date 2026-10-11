@@ -4,15 +4,14 @@
     font-family: 'Fira Code', monospace;
 }
 
+html {
+    scroll-padding-top: 70px;
+}
+
 body {
     background-color: #0F172B;
     color: #F8FAFC;
 }
-
-main {
-    padding: 100px 0 50px;
-}
-
 
 p, span {
     color: #90A1B9;
@@ -28,4 +27,8 @@ p, span {
 
 .red {
     color: #FFA1AD;
+}
+
+nav {
+    background-color: #0F172B;
 }

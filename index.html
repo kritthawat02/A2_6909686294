@@ -21,9 +21,23 @@
 
 <body>
 
+    <div class="container sticky-md-top">
+        <nav class="d-flex flex-column flex-md-row align-items-md-center justify-content-between py-2">
+            <p class="navbar-brand mb-0">_my-porfolio</p>
+            <ul class="navbar-nav flex-row gap-5  list-unstyled mb-0">
+                <li class="nav-item"><a class="nav-link" href="#hero">_hello</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about-me">_about-me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">_projects</a></li>
+            </ul>
+            <a class="nav-link" href="https://cs.sci.tu.ac.th/">@CSTU</a>
+        </nav>
+    </div>
+
+    
+
     <!-- Hero START -->
-    <div class="container">
-        <main class="row">
+    <div class="container" id="hero">
+        <main class="row mt-5">
 
             <div class="col-md-6">
                 <div class="content mb-5">
@@ -48,7 +62,7 @@
 
 
     <!-- About Me START -->
-    <div class="container">
+    <div class="container" id="about-me">
 
         <h1 class="mt-5">_about-me</h1>
         <ul class="list-group mt-2 mb-5">
@@ -71,7 +85,7 @@
 
 
     <!-- Portfolio START -->
-    <div class="container">
+    <div class="container"  id="portfolio">
         <h1 class="mb-3">_projects</h1>
         <div class="row">
 
